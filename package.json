@@ -1,0 +1,31 @@
+{
+  "name": "jspm-ol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jspm": "^0.17.0-beta.49"
+  },
+  "jspm": {
+    "name": "jspm-ol",
+    "main": "jspm-ol.js",
+    "dependencies": {
+      "ol": "npm:ol@^5.3.0"
+    },
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.25"
+    },
+    "peerDependencies": {
+      "buffer": "npm:jspm-nodelibs-buffer@^0.2.0",
+      "fs": "npm:jspm-nodelibs-fs@^0.2.0",
+      "path": "npm:jspm-nodelibs-path@^0.2.0",
+      "process": "npm:jspm-nodelibs-process@^0.2.0"
+    }
+  }
+}
